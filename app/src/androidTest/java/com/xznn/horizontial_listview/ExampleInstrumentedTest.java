@@ -1,4 +1,4 @@
-package com.xznn.xz_rxjava;
+package com.xznn.horizontial_listview;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

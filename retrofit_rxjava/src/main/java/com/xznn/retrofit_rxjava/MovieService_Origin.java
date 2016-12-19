@@ -1,5 +1,7 @@
 package com.xznn.retrofit_rxjava;
 
+import com.xznn.retrofit_rxjava.bean.HttpResult;
+
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
@@ -11,6 +13,6 @@ import retrofit2.http.Query;
 public interface MovieService_Origin {
 //    https://api.douban.com/v2/movie/top250?start=0&count=10
     @GET("top250")
-    Call<MovieEntity> getTopMovie(@Query("start") int start, @Query("count") int count);
+    Call<HttpResult> getTopMovie(@Query("start") int start, @Query("count") int count);
 
 }
